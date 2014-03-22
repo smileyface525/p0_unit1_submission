@@ -1,4 +1,4 @@
-# U1.W1: Add it up!
+# U1.W3: Add it up!
 
 # Complete each step below according to the challenge directions and 
 # include it in this file. Also make sure everything that isn't code

@@ -22,8 +22,8 @@ describe 'total' do
 end
 
 describe 'sentence_maker' do
-  let(:first_sentence) {"all", "my", "socks", "are", "dirty"}
-  let(:second_sentence) {"alaska", "has", "over", 586, "thousand", "miles"}
+  let(:first_sentence) {["all", "my", "socks", "are", "dirty"]}
+  let(:second_sentence) {["alaska", "has", "over", 586, "thousand", "miles"]}
 
   it "is defined as a method" do
     defined?(sentence_maker).should eq 'method'

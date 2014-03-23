@@ -77,3 +77,9 @@ p my_hash_sorting_method(my_family_pets_ages, age) == [["Annabelle", 2], ["Ditto
 p my_deletion_method(i_want_pets, "a") == ["I", 4, "pets", "but", "I", "only", 3 ]
 p my_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie" => 5, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
 
+# Reflect!
+# 
+# 
+# 
+# 
+# 

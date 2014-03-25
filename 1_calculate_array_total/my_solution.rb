@@ -33,7 +33,7 @@
 # 2. Initial Solution
 
 def total array
-	sum =  0;
+	sum =  0
 	array.each do |n|
 		sum += n
 	end

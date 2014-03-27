@@ -6,7 +6,7 @@
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.  
 
-# I worked on this challenge by myself.
+# I worked on this challenge with: Adam Dziuk.
 
 # 1. Pseudocode
 
@@ -64,7 +64,7 @@ class Array
 	def pad! n, padding=nil
 		spaces = n - self.length
 		if spaces > 0
-			(spaces).times { self.push(padding) }
+			spaces.times { self.push(padding) }
 			self
 		else
 			self
@@ -72,12 +72,12 @@ class Array
 	end
 	def pad n, padding=nil
 		spaces = n - self.length
-		padded_array = self.clone
+		padded = self.clone
 		if spaces > 0
-			(spaces).times { padded_array.push(padding) }
-			padded_array
+			spaces.times { padded.push(padding) }
+			padded
 		else
-			padded_array
+			padded
 		end
 	end
 end

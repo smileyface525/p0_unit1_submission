@@ -60,11 +60,19 @@ function Client(name, age, quote) {
   this.age = age;
   this.quote = quote;
 };
+
+
 // 4. "SHOW 'EM OFF!"
 
 var clients = [valKilmer, merylStreep, adamSandler, kristenBell, jimCarrey, shooterMcGavin];
 
 clients
+
+//for (i = 0; i < clients.length; i++) {
+//  console.log('Client: ' + clients[i].name);
+//  console.log('Age: ' + clients[i].age);
+//  console.log('Quote: ' + clients[i].quote);
+//}
 
 // ** BONUS **
 kristenBell.spouse = "Dax Shepard"

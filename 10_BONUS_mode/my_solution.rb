@@ -25,6 +25,7 @@
 # 2. Initial Solution
 
 def mode(a)
+  # b = Hash.new { |x, y| b[x] = 0 }
   b = Hash.new(0)
   final = [];
   max = 1
@@ -59,6 +60,18 @@ def mode(a)
   final = b.select { |x,y| y == max }
   final.keys
 end
+
+#----- Alternate solution using .inject(needs bug fixing) -----
+
+# def mode(array)
+#   array.inject(Hash.new(0)) do |b, x|
+#     b[x] += 1
+#   end
+#   max = b.values.max
+#   final = b.select { |x, y| y == max }
+#   final.keys
+# end
+
 
 # 4. Reflection 
 # What parts of your strategy worked? What problems did you face?
